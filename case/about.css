@@ -1,16 +1,16 @@
 body {
-  background-color: #F5F5F5;
+  background-color: #ECF4F2;
 }
 
 #top {
-  background-color: #E5E5E5;
+  background-color: #ffffff;
   width: 1425px;
   height: 175px;
   text-align: left;
   font-family: Open Sans Condensed;
   font-size: 1.25em;
   display: inline-block;
-  border: 1px solid #006400;
+  border: 1px solid #559F87;
 }
 
 #brand {
@@ -19,7 +19,7 @@ body {
   margin-top: 35px;
   margin-left: 80px;
   display: inline-block;
-  color: #006400;
+  color: #559F87;
 }
 
 #logo {
@@ -33,66 +33,116 @@ body {
   display: inline-block;
   margin-top: 145px;
   margin-right: 20px;
+  color: #000000;
 }
 
 #product {
-   width: 1350px;
-   height: 350px;
-   background-color: #6B8E23;
+    width: 1290px;
+    height: 680px;
+   background-color: #7BE3C1;
    font-family: Open Sans Condensed;
    padding-top: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 30px;
    margin-top: 12px;
    margin-left: 50px;
 }
 
+#explain {
+  margin-left: 175px;
+}
+
 #solar {
-  width: 1350px;
-  height: 350px;
-  background-color: #008000;
+  width: 1290px;
+  height: 500px;
+  background-color: #62CEAA;
   font-family: Open Sans Condensed;
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   margin-top: 12px;
   margin-left: 50px;
 }
 
 #plastic {
-  width: 1350px;
-  height: 350px;
-  background-color: #006400;
+  width: 1290px;
+  height: 830px;
+  background-color: #559F87;
   font-family: Open Sans Condensed;
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   margin-top: 12px;
   margin-left: 50px;
 }
 
+#bio {
+  display: inline-block;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+#i6002 {
+  display: inline-block;
+  float: right;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+
+#line {
+  float: left;
+  margin-top: -30px;
+  margin-left: 50px;
+  display: inline-block;
+}
+
 #track {
-  width: 1350px;
-  height: 350px;
-  background-color: #E5E5E5;
+  width: 1290px;
+  height: 575px;
+  background-color: #DCFBF1;
   font-family: Open Sans Condensed;
   padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   margin-top: 12px;
   margin-left: 50px;
+}
+
+#send {
+  margin-left: 180px;
 }
 
 #promise {
   text-align: center;
   margin-top: 20px;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-weight: bold;
-  color: #067518;
+  color: #559F87;
 }
 
 .title {
   text-align: center;
   margin-top: 20px;
   color: #F5F5F5;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-weight: bold;
 }
 
+.info {
+
+}
+
+#info {
+  text-align:right;
+  margin-right: 210px;
+}
+
 a:link {
-  color: #006400;
+  color: #559F87;
   text-decoration: none;
 }
 
@@ -102,6 +152,6 @@ a:hover {
 }
 
 a:visited {
-  color: #006400;
+  color: #559F87;
   text-decoration: line-through;
 }
